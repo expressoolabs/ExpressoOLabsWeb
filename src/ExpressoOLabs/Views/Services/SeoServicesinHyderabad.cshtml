@@ -1,0 +1,91 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <h3><strong>SEO Services</strong></h3>
+            </div>
+            <div class="span8">
+                <ul class="breadcrumb notop">
+                    <li><a href="#">Home</a><span class="divider">/</span></li>
+                    <li class="active">SEO</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span7">
+                <aside>
+                    <div class="widget">
+                        <p class="custom_font">
+                            ExpressoO Labs provides best <b>SEO services</b> across multiple countries and considered <b>best digital agency in hyderabad</b> for every marketing goals your company can think of. Our expert <b>SEO</b> teams are skilled in increasing the amount of visitors(organic) to a website thus ranking them higher in search engine result page. We are here to help you make the most out of Organic results.
+                        </p>
+                        <p class="custom_font">
+                            Our tailor made and custom <b>SEO strategies</b> starts from <b>keyword research</b> and Analysing competitors all the way to tracking progress and timely reports. Our <b>SEO</b> experts combine clients requirements with their knowledge and skills with the latest <b>SEO</b> technologies of <b>On Page SEO</b> and <b>Off Page SEO</b>, Link building, <b>Content Marketing</b> and Social media platforms to obtain optimum results with high ROI.
+                        </p>
+                        <p class="custom_font">
+                            <b>Keyword Research</b> >> Competitors Analysis >> <b>Web page optimization</b> >> <b>On Page Optimization</b> and <b>Off Page Optimization</b> >> Progress Tracking >> Reporting
+                        </p>
+                        <p class="custom_font">
+                            Our <b>SEO</b> experts have been optimizing websites since 2011 and we understand the uniqueness each business offers. Accordingly our experts tailor-make a digital strategy specific to your business to maximize results.
+                        </p>
+                        <p class="custom_font">
+                            With best in class <b>digital marketing services</b> <a href='@Url.Action("Contact", "Home")'>Contact us</a> to get your own personalised <b>SEO strategy</b>.
+                        </p>
+                    </div>
+                    <div class="widget">
+                        <h4>Social network</h4>
+                        <ul class="social-links">
+                            <li><a href="#" title="Twitter"><i class="icon-bg-light icon-twitter icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Facebook"><i class="icon-bg-light icon-facebook icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Google plus"><i class="icon-bg-light icon-google-plus icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Linkedin"><i class="icon-bg-light icon-linkedin icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Pinterest"><i class="icon-bg-light icon-pinterest icon-circled icon-1x active"></i></a></li>
+                        </ul>
+                    </div>
+
+                </aside>
+            </div>
+            <div class="span5">
+                <div class="widget">
+                    <div class="map-container">
+                        <img src="~/images/expressoo/bestseoservicesinhyderabad.jpg" />
+                    </div>
+                    <div class="spacer30">
+                    </div>
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="row">
+                            <div class="span5 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <textarea class="form-control" name="message" rows="2" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                                <div class="text-center">
+                                    <button class="btn btn-color btn-rounded" type="submit">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

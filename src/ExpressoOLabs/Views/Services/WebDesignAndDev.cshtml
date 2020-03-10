@@ -1,0 +1,90 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section id="subintro">
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <h3><strong>Web App Development</strong></h3>
+            </div>
+            <div class="span8">
+                <ul class="breadcrumb notop">
+                    <li><a href="#">Home</a><span class="divider">/</span></li>
+                    <li class="active">Web Design & Development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span7">
+                <aside>
+                    <div class="widget">
+                        <div class="testimonial_item" style="background-color: #31ad93">
+                            <p class="custom_font">A website is an exact echo of your business only placed in the Virtual or Digital space.</p>
+                        </div>
+                        <p class="custom_font">
+                            <b>ExpressoO Labs</b> is an India based <b>website designing</b> and development company that excels in creating original and user friendly with multi browser compatibility.
+                        </p>
+                        <p class="custom_font">
+                            Website plays an integral role in business as a fancy UI is the 1st thing a visitor notices while an interactive UX is what keeps him/her hooked up.
+                        </p>
+                        <p class="custom_font">
+                            Our mission in <b>ExpressoO Labs</b> is to serve your business with a Uniquely designed Digital presence that not only looks good but also serves your business demands. It goes without saying that <b>Responsive websites</b> are the new trend. The more responsive a website is.. More the bounce rate drops. And keeping users in mind we deliver high quality, professional looking websites that make your business look great on screen.
+                        </p>
+                        <p class="custom_font">
+                            Want to impress your visitors with enticing UI and Responsive UX to boost sales.
+                            <a href='@Url.Action("Contact", "Home")'>Contact us</a> <b>ExpressoO Labs</b> to make your digital presence an effective tool for your business.
+                        </p>
+                    </div>
+                    <div class="widget">
+                        <h4>Social network</h4>
+                        <ul class="social-links">
+                            <li><a href="#" title="Twitter"><i class="icon-bg-light icon-twitter icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Facebook"><i class="icon-bg-light icon-facebook icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Google plus"><i class="icon-bg-light icon-google-plus icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Linkedin"><i class="icon-bg-light icon-linkedin icon-circled icon-1x active"></i></a></li>
+                            <li><a href="#" title="Pinterest"><i class="icon-bg-light icon-pinterest icon-circled icon-1x active"></i></a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+            <div class="span5">
+                <div class="widget">
+                    <div class="map-container">
+                        <img src="~/images/expressoo/bestwebdesigncomanyinhyderabad.jpg" />
+                    </div>
+                    <div class="spacer30">
+                    </div>
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="row">
+                            <div class="span5 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="span5 form-group">
+                                <textarea class="form-control" name="message" rows="2" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                                <div class="text-center">
+                                    <button class="btn btn-color btn-rounded" type="submit">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
